@@ -5,8 +5,12 @@
   "repository": "ssh://git@github.com/k3nt0w/prac-p2p.git",
   "author": "k3nt0w <kento.watanabe.11@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "budo index.js:bundle.js --ssl"
+  },
   "devDependencies": {},
   "dependencies": {
+    "budo": "^11.6.3",
     "simple-peer": "^9.6.2"
   }
 }
