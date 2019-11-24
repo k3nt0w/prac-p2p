@@ -17,7 +17,6 @@ navigator.mediaDevices =
 
 if (!navigator.mediaDevices) {
   console.log('getUserMedia() is not supported.')
-  return
 }
 
 const constraints = { audio: true, video: true }

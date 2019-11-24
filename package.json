@@ -6,9 +6,8 @@
   "author": "k3nt0w <kento.watanabe.11@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "echo skip build step",
-    "start:dev": "budo index.js:public/bundle.js --ssl",
-    "start": "parcel index.html --out-dir public"
+    "build": "parcel build index.html --out-dir public",
+    "start:dev": "budo index.js:public/bundle.js --ssl"
   },
   "devDependencies": {
     "now": "^16.6.0",
