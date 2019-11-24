@@ -1,0 +1,20 @@
+{
+  "name": "prac-p2p",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/k3nt0w/prac-p2p.git",
+  "author": "k3nt0w <kento.watanabe.11@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build index.html --out-dir public",
+    "start:dev": "budo index.js:public/bundle.js --ssl"
+  },
+  "devDependencies": {
+    "now": "^16.6.0",
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "budo": "^11.6.3",
+    "simple-peer": "^9.6.2"
+  }
+}
